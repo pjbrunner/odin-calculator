@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+    <title>Odin Calculator</title>
+</head>
+<body>
+    <main>
+        <div id="calculator">
+            <div id="results-bar">
+                <input type="text" name="results-text" id="results-text" value="" disabled>
+            </div>
+            <div id="buttons">
+                <div class="button-row">
+                    <button class="calc-button">clear</button>
+                    <button class="calc-button">del</button>
+                    <button class="calc-button"><sup>+</sup>/<sub>-</sub></button>
+                    <button class="calc-button red">/</button>
+                </div>
+                <div class="button-row">
+                    <button class="calc-button">7</button>
+                    <button class="calc-button">8</button>
+                    <button class="calc-button">9</button>
+                    <button class="calc-button red">-</button>
+                </div>
+                <div class="button-row">
+                    <button class="calc-button">4</button>
+                    <button class="calc-button">5</button>
+                    <button class="calc-button">6</button>
+                    <button class="calc-button red">*</button>
+                </div>
+                <div class="button-row">
+                    <button class="calc-button">1</button>
+                    <button class="calc-button">2</button>
+                    <button class="calc-button">3</button>
+                    <button class="calc-button red">+</button>
+                </div>
+                <div class="button-row">
+                    <button class="calc-button double-wide">0</button>
+                    <button class="calc-button">.</button>
+                    <button class="calc-button">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="scripts/calculator.js"></script>
+</html>
